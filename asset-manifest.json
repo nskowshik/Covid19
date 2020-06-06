@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/Covid19/static/css/main.89badc54.chunk.css",
-    "main.js": "/Covid19/static/js/main.0985a245.chunk.js",
-    "main.js.map": "/Covid19/static/js/main.0985a245.chunk.js.map",
+    "main.js": "/Covid19/static/js/main.2d94fbda.chunk.js",
+    "main.js.map": "/Covid19/static/js/main.2d94fbda.chunk.js.map",
     "runtime-main.js": "/Covid19/static/js/runtime-main.6bb92be3.js",
     "runtime-main.js.map": "/Covid19/static/js/runtime-main.6bb92be3.js.map",
     "static/css/2.af3c1da9.chunk.css": "/Covid19/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.dfc34262.chunk.js": "/Covid19/static/js/2.dfc34262.chunk.js",
-    "static/js/2.dfc34262.chunk.js.map": "/Covid19/static/js/2.dfc34262.chunk.js.map",
+    "static/js/2.eed8633b.chunk.js": "/Covid19/static/js/2.eed8633b.chunk.js",
+    "static/js/2.eed8633b.chunk.js.map": "/Covid19/static/js/2.eed8633b.chunk.js.map",
     "index.html": "/Covid19/index.html",
-    "precache-manifest.46e1808d7eb0fbd95b181ae38541c135.js": "/Covid19/precache-manifest.46e1808d7eb0fbd95b181ae38541c135.js",
+    "precache-manifest.acccb928f1716cfd887e0ecda40791cc.js": "/Covid19/precache-manifest.acccb928f1716cfd887e0ecda40791cc.js",
     "service-worker.js": "/Covid19/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/Covid19/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.89badc54.chunk.css.map": "/Covid19/static/css/main.89badc54.chunk.css.map",
-    "static/js/2.dfc34262.chunk.js.LICENSE.txt": "/Covid19/static/js/2.dfc34262.chunk.js.LICENSE.txt",
+    "static/js/2.eed8633b.chunk.js.LICENSE.txt": "/Covid19/static/js/2.eed8633b.chunk.js.LICENSE.txt",
     "static/media/style.css": "/Covid19/static/media/card.1ad43fc4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6bb92be3.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.dfc34262.chunk.js",
+    "static/js/2.eed8633b.chunk.js",
     "static/css/main.89badc54.chunk.css",
-    "static/js/main.0985a245.chunk.js"
+    "static/js/main.2d94fbda.chunk.js"
   ]
 }
