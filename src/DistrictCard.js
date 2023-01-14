@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Card from 'react-bootstrap/Card'
 import DistCases from './DistCases'
 import {connect} from 'react-redux'
-import { useParams } from 'react'
 
 class DistrictCard extends React.Component{
     constructor(props){
@@ -17,7 +16,7 @@ class DistrictCard extends React.Component{
     getData(){
         setTimeout(() => {
             this.setState({StateCode:this.props.location.pathname.slice(1)})
-            this.setState({District : Object.keys(this.state.covid[this.state.StateCode].districtData)})
+            this.setState({District : Object.keys(this.state.covid[this.state.StateCode].districts)})
             
         }, 500)
       }
@@ -25,13 +24,12 @@ class DistrictCard extends React.Component{
         this.getData();
     }
     render(){
-        console.log(this.props.location.pathname.slice(1))
         return(
             <>
             <div className="title">
-                    <h1 >{this.state.StateCode}</h1>
+                <h1>{this.state.StateCode}</h1>
             </div>
-            <div className="cards row padding">
+            <div className="cards row padding fh">
                 
                 {this.state.District.map(distname =>(
                 <div className='col-md-4 padding'>

@@ -23,16 +23,22 @@ class StateCard extends React.Component{
         this.getData()
     }
     render(){
+        
         return(
         <div>
-            <div className="title">
-                <h1>Covid' 19</h1>
-                <p>Noval Corona Virus 2020</p>
+            <div className='fx titleWrapper title'>
+                <div className="fx2">
+                    <h1>Covid' 19</h1>
+                    <p>Noval Corona Virus 2020</p>
+                </div>
+                <div className='lastSync'>
+                    <p>Last updated at : {Object.values(this.props.covidProps)[0]?.meta?.date}</p>
+                </div>
             </div>
             <div className="cards col-md-12">
                 <div className="row padding">
-                    {Object.keys(this.props.covidProps).map(  statename =>  ( 
-                        <div className="col-md-4 padding">
+                    {Object.keys(this.props.covidProps).map(  (statename,index) =>  ( 
+                        <div className="col-md-4 padding" key={`state-${index}`}>
                             <Card>
                                 <Card.Body>
                                 <Card.Title>{statename}</Card.Title>

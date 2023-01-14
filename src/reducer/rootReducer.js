@@ -3,7 +3,7 @@ const initialState = {
     covid : {}
 }
 function rootReducer(state = initialState) {
-    axios.get("https://api.covid19india.org/state_district_wise.json").then(res => {
+    axios.get("https://data.covid19india.org/v4/min/data.min.json").then(res => {
         Object.assign(initialState.covid,res.data)     
     })
     return state;
